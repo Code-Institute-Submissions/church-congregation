@@ -74,6 +74,44 @@
 	font-size: 14px;
 	padding: 5px 20px;
 }
+.sticky .navbar-nav li a{
+    color: black;
+}
+.navbar.navbar-default {
+	padding: 0;
+}
+.navbar-header {
+	display: block;
+	width: 100%;
+}
+.nz-logo {
+	padding: 0;
+	max-width: 185px;
+}
+.logo {
+	float: left;
+}
+.collapse.navbar-collapse {
+	width: auto;
+	flex-basis: auto;
+	text-align: right;
+	flex-grow: inherit;
+}
+
+/*-----------------
+	active class and Button
+-------------------------*/
+.active a span {
+    color:  #3DC88F;
+    font-size: 18px;
+    font-weight: 900;
+}
+.active_mobile a span{
+    font-size: 26px;
+    color: #3DC88F;
+    
+}
+
 
 /*================
 	  Header End
@@ -107,7 +145,12 @@
 
 
 }
+
 @media (max-width: 767px) {
+    #nav-toggle,
+	#nav-toggle-label {
+		display: block;
+	}
 	.header_top p.address {
 		display: none;
 	}
@@ -117,6 +160,108 @@
     .follow_us ul li {
 		margin: 0px 0 0px 10px;
 	}
+    .navbar ul li ul.sub-menu li a {
+		padding: 4px 17px;
+		font-size: 13px;
+	}
+	.navbar ul li ul.sub-menu li a {
+		font-size: 13px;
+	}
+    #menu_slide {
+		display: block;
+		float: right;
+		background: none;
+		border: 0;
+		width: 32px;
+		margin: 19px auto;
+		cursor: pointer;
+		padding: 0;
+	}
+    .navbar-collapse {
+		width: 100% !important;
+		text-align: left !important;
+		background: #fff;
+	}
+    /*  Mobile Hamburger */
+	#nav-toggle-label * {
+		transition: 0.25s ease-in-out;
+	}
+    #nav-toggle-label {
+		height: 28px;
+		width: 28px;
+		position: relative;
+		z-index: 9999;
+		right: 0;
+		top: 0;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		cursor: pointer;
+		transition: 0.25s ease-in-out;
+		margin: 0;
+	}
+    #nav-toggle-label #hamburger {
+		position: relative;
+		height: auto;
+		width: 100%;
+		top: 6px;
+		right: 0;
+	}
+    #nav-toggle-label #hamburger span {
+		display: block;
+		width: 100%;
+		height: 2px;
+		position: relative;
+		margin: 0 0 8px 0;
+		background: rgb(152, 218, 91);
+	}
+    #nav-toggle-label #hamburger span:nth-child(1) {
+		transition-delay: 0.5s;
+	}
+	#nav-toggle-label #hamburger span:nth-child(2) {
+		
+		transition-delay: 0.625s;
+	}
+	#nav-toggle-label #hamburger span:nth-child(3) {
+		transition-delay: 0.75s;
+		margin: 0;
+	}
+	.mobile-open #nav-toggle-label #hamburger span,
+	.mobile-open #nav-toggle-label.slide-out #hamburger span {
+		width: 0%;
+	}
+	.mobile-open #nav-toggle-label #hamburger span:nth-child(1),
+	.mobile-open #nav-toggle-label.slide-out #hamburger span:nth-child(1) {
+		transition-delay: 0s;
+	}
+	.mobile-open #nav-toggle-label #hamburger span:nth-child(2),
+	.mobile-open #nav-toggle-label.slide-out #hamburger span:nth-child(2) {
+		transition-delay: 0.125s;
+	}
+	.mobile-open #nav-toggle-label #hamburger span:nth-child(3),
+	.mobile-open #nav-toggle-label.slide-out #hamburger span:nth-child(3) {
+		transition-delay: 0.25s;
+	}
+    .wd-menu>li.has-child>a:after,
+	li.has-child>a:after,
+	.shop .widget-title[data-toggle="collapse"]:after {
+		display: none;
+	}
+
+}
+@media (min-width: 768px) {
+	.collapse.navbar-collapse {
+		display: block;
+	}
+    .collapse.navbar-collapse {
+	width: auto;
+	flex-basis: auto;
+	text-align: right; 
+	flex-grow: inherit;
+    }
+    .navbar-nav li a:hover,
+    .navbar-nav li a.active {
+	color: #3dc88f;
+}
 }
 /*======================
 	Responsive-CSS End

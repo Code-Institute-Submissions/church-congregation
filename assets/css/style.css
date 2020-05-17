@@ -2,3 +2,122 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto:100,200,300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Kavivanar");
+
+/*================
+	  Header
+===========================*/
+
+#header {
+	left: 0;
+	right: 0;
+	position: relative;
+	transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	z-index: 22;
+}
+#header.nav-stacked {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#header.sticky {
+	position: fixed;
+	top: 0;
+}
+#header.sticky .header_top {
+	display: none;
+}
+.header_top {
+	padding: 10px 0;
+	display: table;
+	width: 100%;
+	border-bottom: rgba(255, 255, 255, 0.12) solid 1px;
+}
+.follow_us ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+.follow_us ul li:first-child{
+	margin:0px;
+}
+.follow_us .left-links{
+	text-align: right;
+}
+.follow_us ul li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 0 0px 22px;
+}
+.follow_us ul li a {
+	color: #ffffff;
+	font-size: 15px;
+	padding: 7px 2px;
+	display: block;
+}
+.follow_us ul li a:hover {
+	color: #3dc88f;
+}
+.dark-btn {
+	background: rgb(66, 82, 93);
+	color: #fff;
+}
+.dark-btn:hover {
+	background: rgb(37, 40, 58);
+}
+.btn.btn-sm {
+	font-size: 14px;
+	padding: 5px 20px;
+}
+
+/*================
+	  Header End
+===========================*/
+
+/*======================
+	Responsive-CSS
+=============================*/
+@media (min-width: 991px) and (max-width: 1200px) {
+
+
+
+
+
+
+
+}
+
+/*----------------->  Mobile  <---------------------------*/
+@media (min-width: 768px) and (max-width: 990px) {
+
+    .header_top p.address {
+		display: none;
+	}
+	.follow_us ul li {
+		margin: 0px 0px 0px 18px;
+	}
+
+
+
+
+
+}
+@media (max-width: 767px) {
+	.header_top p.address {
+		display: none;
+	}
+    .header_top {
+		padding: 4px 0;
+	}
+    .follow_us ul li {
+		margin: 0px 0 0px 10px;
+	}
+}
+/*======================
+	Responsive-CSS End
+=============================*/

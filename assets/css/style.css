@@ -3,6 +3,95 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Kavivanar");
 
+/*-----------------------------------------------------------
+     Section-background-color & sectino-heading & Space margins and padding
+-------------------------------------------------------------------*/
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 28px;
+	overflow-x: hidden;
+	font-weight: 400;
+	color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000000;
+	margin: 0 auto 20px;
+	font-family: 'Oswald', cursive;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-family: 'Lato', sans-serif;
+}
+a {
+	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	text-decoration: none;
+	color: #25283a;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #3dc88f;
+}
+ul,
+ol {
+	margin: 0 0 20px;
+}
+ul li,
+ol li {
+	margin: 0 0 10px;
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.section-padding {
+	padding: 70px 0;
+}
+.background-image-intro{
+    background-image: url(/assets/images/slide02.jpg);
+}
+.white_text,
+.white_text p,
+.white_text h1,
+.white_text h2,
+.white_text h3,
+.white_text h4,
+.white_text h5,
+.white_text h6 {
+	color: #fff;
+}
+
+
+
+
+/*-----------------------------------------------------------
+     /Section-background-color & sectino-heading & Space margins and padding 
+-------------------------------------------------------------------*/
+
+
+
 /*================
 	  Header
 ===========================*/
@@ -77,12 +166,34 @@
 .sticky .navbar-nav li a{
     color: black;
 }
-.navbar.navbar-default {
-	padding: 0;
-}
 .navbar-header {
 	display: block;
 	width: 100%;
+}
+.navbar-nav {
+	display: block;
+}
+.navbar-nav li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+}
+.navbar-nav li a {
+	display: block;
+	color: #fafafa;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	padding: 13px 15px;
+	margin: 0 auto;
+}
+.navbar-nav .btn {
+	font-size: 700px;
+	padding: 13px 32px;
+}
+.navbar-nav .btn:hover {
+	color: #fff;
 }
 .nz-logo {
 	padding: 0;
@@ -117,6 +228,53 @@
 	  Header End
 ===========================*/
 
+/*================
+	 Intro(index,events,locations,pastor,about us,contact us)
+===========================*/
+#intro {
+	position: relative;
+}
+#intro .item {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 900px;
+}
+.intro_text {
+	text-align: center;
+	margin: 0 auto 30px;
+	max-width: 800px;
+	padding: 300px 0;
+	position: relative;
+	z-index: 2;
+}
+.intro_text h1 {
+	font-size: 65px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 26px;
+}
+.intro_text p {
+	font-size: 18px;
+	margin: 0 auto 40px;
+	max-width: 70%;
+	line-height: 26px;
+}
+.collapse.navbar-collapse {
+	width: auto;
+	flex-basis: auto;
+	text-align: right; 
+	flex-grow: inherit;
+    }
+
+
+
+/*================
+	 Intro(index,events,locations,pastor,about us,contact us) End
+===========================*/
+
+
+
 /*======================
 	Responsive-CSS
 =============================*/
@@ -139,8 +297,23 @@
 	.follow_us ul li {
 		margin: 0px 0px 0px 18px;
 	}
-
-
+    .section-padding {
+		padding: 100px 0;
+	}
+    .intro_text {
+		padding: 150px 0;
+		margin: 0 auto;
+	}
+	.intro_text h1 {
+		font-size: 55px;
+	}
+	.navbar-nav li a {
+		font-size: 13px;
+		padding: 13px 4px;
+	}
+    .navbar-nav .btn {
+		padding: 10px 10px;
+	}
 
 
 
@@ -186,6 +359,14 @@
 	#nav-toggle-label * {
 		transition: 0.25s ease-in-out;
 	}
+    #nav-toggle {
+		position: fixed;
+		top: 0;
+		right: 0;
+		-webkit-opacity: 0;
+		-ms-opacity: 0;
+		opacity: 0;
+	}
     #nav-toggle-label {
 		height: 28px;
 		width: 28px;
@@ -214,6 +395,37 @@
 		margin: 0 0 8px 0;
 		background: rgb(152, 218, 91);
 	}
+        #nav-toggle-label #cross {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+    #nav-toggle-label #cross span {
+		display: block;
+		background: rgb(152, 218, 91);
+	}
+    #nav-toggle-label #cross span:nth-child(1) {
+		height: 0%;
+		width: 2px;
+		position: absolute;
+		top: 10;
+		right: 50%;
+		margin-left: -1px;
+		transition-delay: 0s;
+	}
+    	#nav-toggle-label #cross span:nth-child(2) {
+		width: 0%;
+		height: 2px;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -1px;
+		transition-delay: 0.25s;
+	}
     #nav-toggle-label #hamburger span:nth-child(1) {
 		transition-delay: 0.5s;
 	}
@@ -241,10 +453,51 @@
 	.mobile-open #nav-toggle-label.slide-out #hamburger span:nth-child(3) {
 		transition-delay: 0.25s;
 	}
+
     .wd-menu>li.has-child>a:after,
 	li.has-child>a:after,
 	.shop .widget-title[data-toggle="collapse"]:after {
 		display: none;
+	}
+    .section-padding {
+		padding: 70px 0;
+	}
+    .intro_text {
+		margin: 0 auto;
+		padding: 200px 0 60px;
+	}
+	.intro_text h1 {
+		font-size: 38px;
+		line-height: 48px;
+	}
+	.intro_text p {
+		font-size: 15px;
+		margin: 0 auto 30px;
+		max-width: 80%;
+		line-height: 24px;
+	}
+    .navbar-header {
+		display: block;
+		width: 100%;
+	}
+	.navbar-collapse {
+		width: 100% !important;
+		text-align: left !important;
+		background: #fff;
+	}
+    	.navbar-nav ul {
+		background: #fff;
+	}
+	.navbar-nav li {
+		display: block;
+	}
+	.navbar-nav li a {
+		color: #333;
+		padding: 6px 15px;
+		border-bottom: rgba(0, 0, 0, 0.15) solid 1px;
+	}
+	.navbar-nav .btn {
+		color: #fff;
 	}
 
 }
@@ -252,16 +505,12 @@
 	.collapse.navbar-collapse {
 		display: block;
 	}
-    .collapse.navbar-collapse {
-	width: auto;
-	flex-basis: auto;
-	text-align: right; 
-	flex-grow: inherit;
-    }
+
     .navbar-nav li a:hover,
     .navbar-nav li a.active {
 	color: #3dc88f;
 }
+
 }
 /*======================
 	Responsive-CSS End

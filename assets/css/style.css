@@ -120,6 +120,12 @@ img {
 #header.sticky .header_top {
 	display: none;
 }
+.collapse.navbar-collapse {
+	width: auto;
+	flex-basis: auto;
+	text-align: left;
+	flex-grow: inherit;
+}
 .header_top {
 	padding: 10px 0;
 	display: table;
@@ -202,12 +208,7 @@ img {
 .logo {
 	float: left;
 }
-.collapse.navbar-collapse {
-	width: auto;
-	flex-basis: auto;
-	text-align: right;
-	flex-grow: inherit;
-}
+
 
 /*-----------------
 	active class and Button

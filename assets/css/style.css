@@ -123,7 +123,7 @@ img {
 .collapse.navbar-collapse {
 	width: auto;
 	flex-basis: auto;
-	text-align: left;
+	text-align: right;
 	flex-grow: inherit;
 }
 .header_top {
@@ -171,10 +171,6 @@ img {
 }
 .sticky .navbar-nav li a{
     color: black;
-}
-.navbar-header {
-	display: block;
-	width: 100%;
 }
 .navbar-nav {
 	display: block;
@@ -261,12 +257,7 @@ img {
 	max-width: 70%;
 	line-height: 26px;
 }
-.collapse.navbar-collapse {
-	width: auto;
-	flex-basis: auto;
-	text-align: right; 
-	flex-grow: inherit;
-    }
+
 
 
 

@@ -656,6 +656,12 @@ img {
 	.shop .widget-title[data-toggle="collapse"]:after {
 		display: none;
 	}
+    /*  Mobile Child Toggle Buttons */
+    .mobile-open .mobile-menu {
+		display: block;
+	}
+
+    /* End Mobile Child Toggle Buttons */
     .intro_text {
 		margin: 0 auto;
 		padding: 200px 0 60px;
@@ -744,6 +750,11 @@ img {
     .navbar-nav li a.active {
 	color: #3dc88f;
 }
+	.mobile-menu {
+		display: none;
+		opacity: 0;
+		visibility: hidden;
+	}
 
 }
 /*======================

@@ -308,6 +308,29 @@ img {
 	line-height: 26px;
 }
 
+.intro-area {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 500px;
+}
+.intro-area::after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.32);
+    content: '';
+    position: absolute;
+    z-index: -5;
+}
+.bg-img-events {
+  background-image: url(/assets/images/bg-5.jpg); 
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 
 /*==============
@@ -340,6 +363,21 @@ img {
 .post_date a:hover{
 	color: #25283a;
 }
+.intro-area .intro-text h3 {
+    font-size: 22px;
+    color: #ffffff; 
+    }
+.intro-area .intro-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #ffffff; 
+    }
+.intro-area .intro-text p {
+    color: #ffffff;
+    margin-bottom: 0; 
+   }
+
 
 
 
@@ -853,6 +891,15 @@ img {
     .widget_inner {
 		padding: 0;
 	}
+   .bg-img-events {
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+   }
+    .intro-text{
+        margin: 0 auto;
+	    padding: 230px 0 60px;
+    }
 
 }
 @media (min-width: 768px) {

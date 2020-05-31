@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     
     /*-------------------------------------------------------------------------------
-    	  Sticky-Header
+    	  Sticky-Header(Making the navbar appear with white background when the page gets scrolled down)
     	-------------------------------------------------------------------------------*/
     $(window).scroll(function () {
         var sticky = $('#header'),

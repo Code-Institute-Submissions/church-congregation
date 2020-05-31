@@ -219,6 +219,19 @@ img {
 .sticky .navbar-nav li a{
     color: black;
 }
+.sticky {
+	-webkit-animation-name: fadeHeaderInDown;
+	-moz-animation-name: fadeHeaderInDown;
+	-o-animation-name: fadeHeaderInDown;
+	animation-name: fadeHeaderInDown;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 22;
+	background: #fafafa;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
 .navbar-nav {
 	display: block;
 }

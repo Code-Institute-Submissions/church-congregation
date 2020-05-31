@@ -400,6 +400,62 @@ img {
 	 Intro(index,events,locations,pastor,about us,contact us) End
 ===========================*/
 
+/*==============
+	 events
+======================*/
+
+.event_wrap {
+	margin: 0 auto 50px;
+	overflow: hidden;
+}
+.event_date {
+	float: left;
+	width: 11%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background: #25283a;
+	color: #fff;
+	padding: 33px 5px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+}
+.event_date span {
+	color: #3dc88f;
+	display: block;
+	font-size: 40px;
+	margin: 0 auto 12px;
+}
+.event_img {
+	float: left;
+	width: 37%;
+	margin-left: 2.7%;
+}
+.event_info {
+	float: right;
+	width: 47.4%;
+}
+
+.event_info p {
+	margin: 0 auto 20px;
+    color: black;
+}
+.event_info h4 {
+	margin: 10px auto 20px;
+}
+.event_info ul {
+	padding: 0;
+	margin: 0 auto 22px;
+	list-style: none;
+}
+.event_info ul li {
+	margin: 0 auto 6px;
+}
+.event_info ul li i {
+	color:	#3dc88f;
+	margin-right: 8px;
+}
+
 /*================
 	  Footer
 ===========================*/
@@ -498,16 +554,23 @@ img {
 =============================*/
 @media (min-width: 991px) and (max-width: 1200px) {
 
-
-
+.event_date {
+	padding: 22px 5px;
+}
+.event_info {
+	padding: 15px 15px 15px 126px;
+}
+.event_info h4 {
+	margin: 0px auto 14px;
+}
 
 
 
 
 }
 
-/*----------------->  Mobile  <---------------------------*/
-@media (min-width: 768px) and (max-width: 990px) {
+/*----------------->  Mobile & tablet  <---------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .header_top p.address {
 		display: none;
@@ -560,6 +623,40 @@ img {
 		font-size: 14px;
 		line-height: 20px;
 	}
+	.section-padding {
+		padding: 100px 0;
+	}
+    .event_date {
+		width: 82px;
+	}
+    .event_date {
+		padding: 15px 5px;
+	}
+    .event_info ul li {
+		font-size: 13px;
+		line-height: 23px;
+	}
+    .event_info {
+		padding: 25px 25px 25px 100px;
+	}
+    .event_info h4 {
+		margin: 0px auto 14px;
+		font-size: 22px;
+	}
+    .intro-area .intro-text h3 {
+       font-size: 22px;
+       margin-top: 60px;
+    }
+    .event_wrap .event_date span {
+		display: inline;
+		font-size: 20px;
+		margin: 0 auto;
+	}
+    .event_info {
+	   padding: 1px 1px 1px 40px;
+
+    }  
+
 
 
 
@@ -916,6 +1013,43 @@ img {
         margin: 0 auto;
 	    padding: 230px 0 60px;
     }
+    .section-padding {
+		padding: 70px 0;
+	}
+    .event_wrap {
+		margin: 0 auto 60px;
+	}
+    .event_wrap {
+		margin: 0 auto 60px;
+	}
+	.event_wrap .event_img {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.event_wrap .event_info {
+		float: none;
+		width: 100%;
+		padding-top: 10px;
+	}
+	.event_wrap .event_info ul li {
+		font-size: 15px;
+	}
+	.event_wrap .event_date {
+		float: none;
+		width: 100%;
+		text-align: left;
+		padding: 1px 13px;
+		font-size: 15px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.event_wrap .event_date span {
+		display: inline;
+		font-size: 15px;
+		margin: 0 auto;
+	}
+    
 
 }
 @media (min-width: 768px) {

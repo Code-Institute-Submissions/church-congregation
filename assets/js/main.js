@@ -9,6 +9,8 @@ $(document).ready(function () {
         $('.mobile-menu .sub-menu').slideUp(250);
         return false;
     });
+    
+    
 
        /*------------------------------------------------------------------
                          Active Class 

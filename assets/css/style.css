@@ -769,6 +769,9 @@ img {
 		overflow: hidden;
 		display: none;
 	}
+    body.mobile-open {
+		overflow: hidden;
+	}
     .mobile-menu .wd-menu {
 		display: block;
 		padding: 0;

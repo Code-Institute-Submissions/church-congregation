@@ -343,12 +343,14 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .bg-img-locations {
-  background-image: url(/assets/images/location.jpg); 
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)),url(/assets/images/location.jpg); 
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 
 
@@ -662,7 +664,7 @@ img {
     .event_info {
 	   padding: 1px 1px 1px 40px;
 
-    }  
+    }
 
 
 
@@ -1061,6 +1063,10 @@ img {
 		font-size: 15px;
 		margin: 0 auto;
 	}
+    .bg-img-locations {
+       background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)),url(/assets/images/location.jpg); 
+       background-size: cover;
+    }
     
 
 }

@@ -343,6 +343,13 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.bg-img-locations {
+  background-image: url(/assets/images/location.jpg); 
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 
 
@@ -1005,6 +1012,11 @@ img {
 		padding: 0;
 	}
    .bg-img-events {
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+   }
+    .bg-img-locations {
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-position:center;

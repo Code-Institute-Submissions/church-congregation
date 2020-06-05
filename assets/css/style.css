@@ -435,6 +435,12 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.bg-img-donation {
+  background: linear-gradient(rgba(221, 164, 164, 0.2), rgba(0, 0, 0, .3)),url(../images/giving.jpg); 
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .section_padding_top_50 > [class*="container"] {
 	padding-top: 50px;
 }

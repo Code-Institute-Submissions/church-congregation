@@ -426,6 +426,12 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.bg-img-contact {
+  background: linear-gradient(rgba(221, 164, 164, 0.4), rgba(0, 0, 0, .4)),url(/assets/images/contact.jpg); 
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .section_padding_top_50 > [class*="container"] {
 	padding-top: 50px;
 }

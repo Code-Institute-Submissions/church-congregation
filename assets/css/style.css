@@ -899,6 +899,13 @@ background-color: #f7f6f6;
 		border: 0;
 		box-shadow: none;
 	}
+    .bg-img-donation {
+        background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)),url(../images/giving.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed; 
+        background-size: cover; 
+    }
 
 
 
@@ -997,7 +1004,7 @@ background-color: #f7f6f6;
 		margin: 0 0 8px 0;
 		background: rgb(152, 218, 91);
 	}
-        #nav-toggle-label #cross {
+    #nav-toggle-label #cross {
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -1019,7 +1026,7 @@ background-color: #f7f6f6;
 		margin-left: -1px;
 		transition-delay: 0s;
 	}
-    	#nav-toggle-label #cross span:nth-child(2) {
+    #nav-toggle-label #cross span:nth-child(2) {
 		width: 0%;
 		height: 2px;
 		position: absolute;
@@ -1064,7 +1071,7 @@ background-color: #f7f6f6;
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-    	#nav-toggle-label #cross span {
+    #nav-toggle-label #cross span {
 		display: block;
 		background: rgb(152, 218, 91);
 	}
@@ -1194,7 +1201,7 @@ background-color: #f7f6f6;
 		text-align: left !important;
 		background: #fff;
 	}
-    	.navbar-nav ul {
+    .navbar-nav ul {
 		background: #fff;
 	}
 	.navbar-nav li {
@@ -1299,6 +1306,7 @@ background-color: #f7f6f6;
         background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)),url(../images/location.jpg); 
         background-size: cover;
     }
+
     .contact_info {
 		padding: 40px 15px;
 	}
@@ -1328,6 +1336,8 @@ background-color: #f7f6f6;
 		opacity: 0;
 		visibility: hidden;
 	}
+
+    
 
 }
 /*======================

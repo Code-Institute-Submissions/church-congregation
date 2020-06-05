@@ -76,7 +76,7 @@ img {
 	height: auto;
 }
 .background-image-intro{
-    background-image: url(/assets/images/slide02.jpg);
+    background-image: url(../images/slide02.jpg);
 }
 .white_text,
 .white_text p,

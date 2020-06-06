@@ -45,5 +45,16 @@ $(document).ready(function () {
         $(this).addClass("active_mobile");
     });  
     
+    /*------------------------------------------------------------------
+                      back to top
+      -------------------------------------------------------------------*/
+
+        $('#back-top a').on('click', function (e) {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+         
 
    }); 

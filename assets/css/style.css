@@ -319,6 +319,19 @@ img {
 	margin-bottom: 60px;
 	clear: both;
 }
+/*----------------------
+     date-countdown
+------------------------------*/
+
+.data-countdn a {
+    color: #fafafa;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: "Exo", sans-serif;
+}
+.data-countdn a:hover {
+    color: #3dc88f;
+}
 
 
 /*-----------------
@@ -1339,6 +1352,10 @@ background-color: #f7f6f6;
 		height: 350px;
 		margin: 0 auto 70px;
 	}
+    .data-countdn p a{
+       color: #fafafa;
+       font-size: 15px;
+  }
     
 
 }

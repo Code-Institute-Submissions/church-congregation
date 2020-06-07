@@ -96,7 +96,7 @@ var x = setInterval(function() {
 
 
         /*------------------------------------------------------------------
-                         Send Email
+                         Send Email EmailJS-API
       -------------------------------------------------------------------*/
 function sendMail(contactForm){
     emailjs.send("gmail","ninos_contact",{
@@ -118,7 +118,9 @@ function sendMail(contactForm){
 
     return false;
 }
-
+        /*------------------------------------------------------------------
+                         Google Map API
+      -------------------------------------------------------------------*/
 
 function initMap() {
 

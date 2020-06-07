@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Kavivanar");
 
 /*-----------------------------------------------------------
-     Section-background-color & sectino-heading & Space margins and padding
+     Section-background-color & section-heading & Space margins and padding
 -------------------------------------------------------------------*/
 body {
 	font-family: 'Lato', sans-serif;
@@ -76,7 +76,7 @@ img {
 	height: auto;
 }
 .background-image-intro{
-    background-image: url(../images/slide02.jpg);
+    background-image: url(../images/index.jpg);
 }
 .white_text,
 .white_text p,
@@ -650,15 +650,6 @@ background-color: #f7f6f6;
 }
 
 
-
-
-
-
-
-/*================
-	 Intro(index,events,locations,pastor,about us,contact us) End
-===========================*/
-
 /*==============
 	 events
 ======================*/
@@ -842,29 +833,22 @@ background-color: #f7f6f6;
 /*======================
 	Responsive-CSS
 =============================*/
-@media (min-width: 991px) and (max-width: 1200px) {
-
-.event_date {
-	padding: 22px 5px;
-}
-.event_info {
-	padding: 15px 15px 15px 126px;
-}
-.event_info h4 {
-	margin: 0px auto 14px;
-}
-.box_heading {
-	margin: 0 0 50px;
-}
-
-
-
-
-}
 
 /*----------------->  Mobile & tablet  <---------------------------*/
 @media (min-width: 768px) and (max-width: 1024px) {
-
+    
+    .event_date {
+	padding: 22px 5px;
+    }
+    .event_info {
+	padding: 15px 15px 15px 126px;
+    }
+    .event_info h4 {
+	margin: 0px auto 14px;
+    }
+    .box_heading {
+	margin: 0 0 50px;
+    }
     .header_top p.address {
 		display: none;
 	}
@@ -960,12 +944,6 @@ background-color: #f7f6f6;
     .map_wrap {
 		height: 300px;
 	}
-
-
-
-
-
-
 
 }
 
@@ -1412,9 +1390,4 @@ background-color: #f7f6f6;
 		visibility: hidden;
     }
 
-    
-
 }
-/*======================
-	Responsive-CSS End
-=============================*/

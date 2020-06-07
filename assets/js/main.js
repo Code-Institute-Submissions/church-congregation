@@ -156,3 +156,30 @@ function initMap() {
     var markerCluster2 = new MarkerClusterer(map2, marker2, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
 }
+
+     // -------------------Twitter API--------------------------------//
+$('.twitter-feed').delegate('#twitter-widget-0', 'DOMSubtreeModified propertychange', function () {
+    customizeTweetMedia();
+});
+
+var customizeTweetMedia = function () {
+    // CSS Overrides
+    $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Tweet-media').css('display', 'initial');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-Tweet-timestamp').css('color', '#fafafa');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('img.Avatar').css('display', 'initial');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-avatar.Identity-avatar').remove();
+    $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-size', '16px');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-family', 'Raleway');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('color', '#fafafa');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('span.TweetAuthor-name').css('color', '#3399ff');   
+    $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-family', 'Libre Baskerville');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('color', '#fafafa');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('font-size', '15px');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('p.timeline-tweet-text').css('line-height', '1.6');
+    $('.twitter-feed').find('.twitter-timeline').contents().find('ul.timeline-tweet-actions').css('display', 'none');
+
+    // Call the function on dynamic updates in addition to page load
+    $('.twitter-feed').find('.twitter-timeline').contents().find('.timeline-TweetList').bind('DOMSubtreeModified propertychange', function () {
+        customizeTweetMedia(this);
+    });
+}

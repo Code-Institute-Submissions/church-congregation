@@ -156,7 +156,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="form_wrap">
-							<form>
+							<form onsubmit="return sendMail(this);">
 								<div class="form-group">
 									<input type="text" class="form-control" name="Name" id="fullname" placeholder="Name" required>
 
@@ -251,6 +251,13 @@
 			integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
 		<!--Main.JS-->
 		<script src="assets/js/main.js"></script>
+        <!--Email.JS-->
+    	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+      emailjs.init("user_5YIDJZ915J78HPono4GPm");
+   })();
+	</script>
 
 	</footer>
 

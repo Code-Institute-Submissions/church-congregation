@@ -93,4 +93,28 @@ var x = setInterval(function() {
   }
 }, 1000);
 });
-//***---------------------data-countdown for events-------------------***//
+
+
+        /*------------------------------------------------------------------
+                         Send Email
+      -------------------------------------------------------------------*/
+function sendMail(contactForm){
+    emailjs.send("gmail","ninos_contact",{
+
+        "from_name":contactForm.fullname.value,
+        "from_email":contactForm.emailaddress.value,
+        "request_contact":contactForm.message.value
+
+    })
+
+    .then(function(response){
+        console.log("SUCCESS", response);
+        window.location.href = "contact-us.html";
+
+    },
+    function(error){
+            console.log("FAILED",error);
+    });
+
+    return false;
+}

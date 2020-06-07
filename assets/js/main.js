@@ -118,3 +118,39 @@ function sendMail(contactForm){
 
     return false;
 }
+
+
+function initMap() {
+
+    var map1 = new google.maps.Map(document.getElementById("map1"), {
+        zoom: 3,
+        center: { lat: 59.361740, lng: 17.969670 }
+    });
+    var map2 = new google.maps.Map(document.getElementById("map2"), {
+        zoom: 3,
+        center: { lat: 59.375700, lng: 17.941370 }
+    });
+
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    var locations = [
+        { lat: 59.361740, lng: 17.969670 },
+        { lat: 59.375700, lng: 17.941370 }
+    ]
+    var marker1 = new google.maps.Marker({
+        position: locations[0],
+        map: map1,
+        title: 'Prästgårdsgatan 13',
+        label:labels[0]
+    });
+        var marker2 = new google.maps.Marker({
+        position: locations[1],
+        map: map2,
+        title: 'Rissne Centrum',
+        label:labels[1]
+    });
+
+    var markerCluster1 = new MarkerClusterer(map1, marker1, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+    var markerCluster2 = new MarkerClusterer(map2, marker2, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+
+}

@@ -139,12 +139,13 @@
 		</div>
 	</div>
 	<!-- /Intro -->
-    <!-- locations 1 -->
+	<!-- locations 1 -->
 	<section class="section_padding_top_50 section_padding_bottom_50 section-bg-location ">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-                  <!-- To Do Google Map API -->
+					<div id="map1" style="width: 100%; height: 373px;">
+					</div>
 				</div>
 				<div class="col-md-5">
 					<div class="with_border with_padding_small">
@@ -191,12 +192,15 @@
 		</div>
 	</section>
 	<!-- end locations 1 -->
-    	<!-- locations 2 -->
+	<!-- locations 2 -->
 	<section class="section_padding_top_50 section_padding_bottom_50">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-7">
+					<div id="map2" style="width: 100%; height: 373px;">
+					</div>
+				</div>
 				<div class="col-md-5">
-
 					<div class="with_border with_padding_small">
 						<ul class="list-unstyled list1 no-bullets no-top-border no-bottom-border">
 
@@ -306,6 +310,11 @@
 			integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
 		<!--Main.JS-->
 		<script src="assets/js/main.js"></script>
+		<!--Google-JS-->
+		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Wbo_xR9dS_0W7h9mkWZUvsZ2jkGNV84&callback=initMap">
+		</script>
 
 	</footer>
 

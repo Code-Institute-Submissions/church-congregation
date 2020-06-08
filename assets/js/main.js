@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 
           /*-------------------------------------------------------------------------------
-    	  Mobile Navigation
+    	                         Mobile Navigation
     	-------------------------------------------------------------------------------*/
 
     $('#nav-toggle-label, .mobile-trigger').on('click', function () {

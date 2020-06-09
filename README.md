@@ -45,5 +45,7 @@ On the page(contact us) to contact them and the page(giving) its to donation to 
     - Swish: payment method only works in Sweden.
 
 ## Testing
-I have tested the web page with my mentor. Initially, I got some feedback and I made a little changes..
+I have tested the web page with my mentor. Initially, I got some feedback and I made a little changes
+- Make code more formatted.
+- Reduce the comments.
 

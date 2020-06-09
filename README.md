@@ -1,39 +1,49 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Church congregation
+This website is for the whole members and visitors to this congregation who can interact with any activity (prayer, prayer meeting, conferences, events) by getting whole the material and presentation of static data.
+The priest and the servants of God shall have an administrative role by inputting all material that is relating to all the work to be presented to them and members of the congregation.
+All information related to all activities to be presented to visitors and them of the congregation. 
+For further development in the near future, all associates should be able to register and log in so that they can also enter information and participate in the digital activity
+and post news, pictures, video and live streaming for(prayer,prayer meetings, conferences, events) relating to this gathering.
 
-Welcome Ninos Zaiya,
+## UX
+In general, this website presents information about the activity(prayer, prayer meetings, conferences, events) related to the church congregation and its members and visitors.
+This website is for the whole members and visitors to this congregation who want to interact with any activity and with each other. 
+And to help them to get all information about the church congregation activities and to support other people to search for God. 
+Information that is available on this website is about the church congregation, pastor, news, upcoming activities, members, and servants of God.
+Check out the **Mockup** that I have created as part of the design process <a href="https://drive.google.com/file/d/17ViYuw2z7ylrPO94FPM6-wteUdIhqoV3/view?usp=sharing" target="_blank"> Mockup of the Church congregation</a>.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Existing Features
+There are six general pages (Home, events, location, pastor Contact us, About us, and the giving).
+In the pages (Home, events, location, pastor, about us) that present all information like(news, events, locations) about church congregation and their(priest and the servants) staff and goals.
+On the page(contact us) to contact them and the page(giving) its to donation to the church.
 
-## Gitpod Reminders
+## Features Left to Implement
+- **Admin Dashboard**: to be able to administrative website content by adding news, activity video images, etc. 
+- **Signin/Signup**: to give all members the opportunity to post articles, pictures, or videos related to church activity
+- **profile page**: To display all information about all members should have a  him/her.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Technologies Used
+- Codeinstitute: materials and homework and projector during the lesson.
+- HTML: by using HTML language to markup web pages in this project.
+- CSS: to perform style for the WepApp.
+- FontAwesome: to perform font and icon.
+- bootstrap 4: to perform responsive for the WepApp.
+- JavaScript and jQuery to perform:
+    1. The active class for the navbar links.
+    2. Data-Countdown for events.
+    3. Sticky-Header.
+    4. Mobile Navigation(navbar responsive for the mobile).
+    5. Back to top: When you are at the bottom of a page, there is a button that will take you to the top of the page.
+    6. Send Email.
+    7. Google map.
+    8. Twitter
+    10. Websites like: (**Stackoverflow**, **css-tricks**, **w3schools**, **betalamedswish**, **github**, **youtube**).
+    11. API:
+    - EmailJS: to send email.
+    - Google: to get the address location on the map.
+    - Twitter: to get lasts twitter.
+    - Swish: payment method only works in Sweden.
 
-`python3 -m http.server`
+## Testing
+I have tested the web page with my mentor. Initially, I got some feedback and I made a little changes..
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!

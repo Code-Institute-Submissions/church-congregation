@@ -109,7 +109,7 @@ function sendMail(contactForm){
 
     .then(function(response){
         console.log("SUCCESS", response);
-        window.location.href = "contact-us.html";
+        window.location.href = "contact-submit.html";
 
     },
     function(error){

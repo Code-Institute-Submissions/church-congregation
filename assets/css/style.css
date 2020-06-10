@@ -710,7 +710,7 @@ background-color: #f7f6f6;
 	box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 10px;
 }
 .box_heading {
-	margin: 0 0 100px;
+	margin: 0 0 10px;
 }
 .box_heading h4 {
 	display: inline-block;

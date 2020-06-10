@@ -37,8 +37,8 @@ On the page(contact us) to contact them and the page(giving) its to donation to 
     6. Send Email.
     7. Google map.
     8. Twitter
-    10. Websites like: (**Stackoverflow**, **css-tricks**, **w3schools**, **betalamedswish**, **github**, **youtube**).
-    11. API:
+-  Websites like: (**Stackoverflow**, **css-tricks**, **w3schools**, **betalamedswish**, **github**, **youtube**).
+-  API:
     - EmailJS: to send email.
     - Google: to get the address location on the map.
     - Twitter: to get lasts twitter.
@@ -68,5 +68,3 @@ Why GitHub Pages? GitHub Pages offers a lot of features and flexibility, all for
 ### How To Deployment On GitHub Pages ?
 In GitHub, navigate to my **username.github.io** repository and click **Settings**. Within **Settings**, navigate to the **Source** section within the **Github Pages** section. 
 From the dropdown menu, select **master branch**. Now, all of may repositories can be found at http://username.github.io/repository-name.
-
-

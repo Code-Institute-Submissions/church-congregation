@@ -67,6 +67,6 @@ Why GitHub Pages? GitHub Pages offers a lot of features and flexibility, all for
 
 ### How To Deployment On GitHub Pages ?
 In GitHub, navigate to my **username.github.io** repository and click **Settings**. Within **Settings**, navigate to the **Source** section within the **Github Pages** section. 
-From the dropdown menu, select **master branch** and then click **Save**. Now, all of may repositories can be found at http://username.github.io/repository-name.
+From the dropdown menu, select **master branch**. Now, all of may repositories can be found at http://username.github.io/repository-name.
 
 

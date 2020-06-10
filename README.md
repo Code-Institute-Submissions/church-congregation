@@ -49,3 +49,19 @@ I have tested the web page with my mentor. Initially, I got some feedback and I 
 - Make code more formatted.
 - Reduce the comments.
 
+I have tested the web page on different browsers and screen sizes and its works. My Contact form did not work really well at first,
+so when submitting a form page could not refresh, but then after many search I found solution.
+It works and refresh well and shows feedback message to users.
+Have tested payment system(**Swish API**) it works well and you can donate, which I have mentioned only in Sweden works.
+Google map API It was a challenge to make two maps, two different addresses in the same page but thanks to<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="width:50px;"> and *Google* I fixed it.
+
+
+## Deployment
+I have chosen to deployed my project in github pages.
+Why GitHub Pages? GitHub Pages offers a lot of features and flexibility, all for free. Some of the benefits include:
+
+- Easy setup.
+- Good cooperation and communication using Git and GitHub.
+- Free hosting with >95% uptime.
+- Live updating with normal GitHub workflow.
+

@@ -52,8 +52,8 @@ I have tested the web page with my mentor. Initially, I got some feedback and I 
 I have tested the web page on different browsers and screen sizes and its works. My Contact form did not work really well at first,
 so when submitting a form page could not refresh, but then after many search I found solution.
 It works and refresh well and shows feedback message to users.
-Have tested payment system(**Swish API**) it works well and you can donate, which I have mentioned only in Sweden works.
-Google map API It was a challenge to make two maps, two different addresses in the same page but thanks to<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="width:30px;height:30px"> and *Google* I fixed it.
+Have tested payment system <img src="./assets/images/swish_xs.png"> it works well and you can donate, which I have mentioned only in Sweden works.
+Google map API It was a challenge to make two maps, two different addresses in the same page but thanks to <img src="./assets/images/codeinstitute.png"> and *Google* I fixed it.
 
 
 ## Deployment
@@ -64,4 +64,9 @@ Why GitHub Pages? GitHub Pages offers a lot of features and flexibility, all for
 - Good cooperation and communication using Git and GitHub.
 - Free hosting with >95% uptime.
 - Live updating with normal GitHub workflow.
+
+### How To Deployment On GitHub Pages ?
+In GitHub, navigate to my **username.github.io** repository and click **Settings**. Within **Settings**, navigate to the **Source** section within the **Github Pages** section. 
+From the dropdown menu, select **master branch** and then click **Save**. Now, all of may repositories can be found at http://username.github.io/repository-name.
+
 

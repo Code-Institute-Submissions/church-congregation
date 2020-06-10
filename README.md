@@ -53,7 +53,7 @@ I have tested the web page on different browsers and screen sizes and its works.
 so when submitting a form page could not refresh, but then after many search I found solution.
 It works and refresh well and shows feedback message to users.
 Have tested payment system(**Swish API**) it works well and you can donate, which I have mentioned only in Sweden works.
-Google map API It was a challenge to make two maps, two different addresses in the same page but thanks to<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="width:50px;"> and *Google* I fixed it.
+Google map API It was a challenge to make two maps, two different addresses in the same page but thanks to<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="width:30px;height:30px"> and *Google* I fixed it.
 
 
 ## Deployment
